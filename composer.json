@@ -1,0 +1,26 @@
+{
+    "name": "ignacio-dev/laravel-sail-shortcut",
+    "description": "Terminal shortcut for Laravel Sail commands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ignacio Dominguez",
+            "email": "contact@ignacio-dev.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "IgnacioDev\\SailShortcut\\": "src",
+            "IgnacioDev\\SailShortcut\\Tests": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IgnacioDev\\SailShortcut\\SailShortcutServiceProvider"
+            ]
+        }
+    }
+}
