@@ -35,12 +35,12 @@ class UninstallCommand extends Command
         if (!File::exists($path)) {
             $this->output->error('Sil shortcut not found.');        
             $this->output->warning('The Sail shortcut could not be removed because it could not been found. Are you sure it was installed?');
-            return 1;
+            return Command::FAILURE;
         }
 
         if (!File::delete($path)) {
             $this->output->error('An unknown error occurred while removing the shortcut.');
-            return 1;
+            return Command::FAILURE;
         }
 
         $this->output->newLine(1);
@@ -49,6 +49,6 @@ class UninstallCommand extends Command
         $this->output->writeln('<fg=blue>QUICK NOTE:</> You may also want to remove the library from composer.');
         $this->output->newLine(1);
         
-        return 0;
+        return Command::SUCCESS;
     }
 }
