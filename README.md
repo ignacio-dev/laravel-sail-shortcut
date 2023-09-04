@@ -54,6 +54,13 @@ Once installed, you can start using ``./sail`` instead of ``vendor/bin/sail``.
   
 
 For example:
+```
+
+./sail up -d
+
+```
+
+Or
 
 ```
 
