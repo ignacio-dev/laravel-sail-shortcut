@@ -5,7 +5,7 @@
 
 ## Description
 
-Terminal shortcut for Laravel Sail commands, so that you can use ```./sail {your-command}``` instead of ```vendor/bin/sail {your-command}```
+Terminal shortcut for Laravel Sail commands, so that you can just type ```./sail {your-command}``` instead of ```vendor/bin/sail {your-command}```
 
   
 
