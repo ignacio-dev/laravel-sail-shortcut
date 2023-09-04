@@ -1,6 +1,7 @@
 {
     "name": "ignacio-dev/laravel-sail-shortcut",
     "description": "Terminal shortcut for Laravel Sail commands",
+    "version": "0.0.1",
     "license": "MIT",
     "authors": [
         {
