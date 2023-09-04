@@ -14,7 +14,7 @@
     "autoload": {
         "psr-4": {
             "IgnacioDev\\SailShortcut\\": "src",
-            "IgnacioDev\\SailShortcut\\Tests": "tests"
+            "IgnacioDev\\SailShortcut\\Tests\\": "tests"
         }
     },
     "extra": {
